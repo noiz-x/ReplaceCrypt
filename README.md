@@ -22,7 +22,7 @@ ReplaceCrypt uses strong AES encryption and ensures that files are processed onl
 
 1. **Clone the repository:**
    ```bash
-   git clone https://github.com/yourusername/ReplaceCrypt.git
+   git clone https://github.com/noiz-x/ReplaceCrypt.git
    cd ReplaceCrypt
    ```
 
