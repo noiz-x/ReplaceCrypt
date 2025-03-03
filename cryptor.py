@@ -110,6 +110,12 @@ def process_path(path, password, mode):
         print(f"Path '{path}' is neither a file nor a directory.")
 
 def main():
+    print('________________________.___._____________________________ __________ ')
+    print('\\_   ___ \\______   \\__  |   |\\______   \\__    ___/\\_____  \\______   \\')
+    print('/    \\  \\/|       _//   |   | |     ___/ |    |    /   |   \\|       _/')
+    print('\\     \\___|    |   \\____   | |    |     |    |   /    |    \\    |   \\')
+    print('\\______  /____|_  // ______| |____|     |____|   \\_______  /____|_  /')
+    print('        \\/       \\/ \\/                                    \\/       \\/ ')
     choice = input("Would you like to (E)ncrypt or (D)ecrypt? ").lower()
     if choice not in ['e', 'd']:
         print("Invalid choice. Please select 'E' for encrypt or 'D' for decrypt.")
